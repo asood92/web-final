@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+section#data-input {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    border: 2px solid;
+}
+
+.column-1, .column-2 {
+    margin: 5%;
+}
+
+#display {
+    text-align: center;
+}
+
+#data-input {
+
+}
