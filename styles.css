@@ -1,23 +1,27 @@
+/* Make the whole page a flex container */
 .container {
     display: flex;
     justify-content: center;
 }
 
+/* Inner flex container for input */
 section#data-input {
     display: flex;
     flex-direction: column;
     padding: 5%;
     border: 2px solid;
+    font-weight: bold;
 }
 
+/* Add some separation between the two columns */
 .column-1, .column-2 {
     margin: 5%;
 }
 
-#display {
+/* Add a border for the headline output with some padding */
+section#headline-display {
+    border: 2px solid;
+    padding: 5%;
     text-align: center;
-}
-
-#data-input {
 
 }

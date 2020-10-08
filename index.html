@@ -14,15 +14,13 @@
             <p>My favorite color is blue and I wear Red Wing boots.
         </section>
 
+        <!-- Get all user input -->
         <section id="data-input">
             <h1>Font Styler</h1>
 
-            <!-- <div class="input-styling"> -->
             <label for="input-size">Font Size</label>
             <input id="input-size" type="number">
-            <!-- </div> -->
 
-            <!-- <div class="input-styling"> -->
             <label for="select-font">Font Family</label>
             <select id="select-font">
                 <option value="Helvetica">Helvetica</option>
@@ -30,27 +28,20 @@
                 <option value="Times New Roman">Times New Roman</option>
                 <option value="Georgia">Georgia</option>
             </select>
-            <!-- </div> -->
 
-            <!-- <div class="input-styling"> -->
             <label for="input-color">Font Color</label>
             <input id="input-color" type="color" value="#000">
-            <!-- </div> -->
 
-            <!-- <div class="input-styling"> -->
             <label for="input-color">Background Color</label>
             <input id="input-bg-color" type="color" value="#fff">
-            <!-- </div> -->
 
-            <!-- <div class="input-styling"> -->
-            <label for="enter-text">Enter Text</label>
+            <label for="enter-text">Enter Headline</label>
             <input id="enter-text" placeholder="Sample Text">
-            <!-- </div> -->
 
         </section>
     </div>
 
-    <!-- Output section -->
+    <!-- Output all user settings/headline in the appropriate style -->
     <div class="column-2">
         <section id="headline-display">
             <h1 id="display">Sample Headline</h1>
@@ -59,10 +50,10 @@
         <section id="data-output">
             <h1>Headline CSS:</h1>
             <pre><code>.headline {
-                font-size: <span id="show-size">16</span>px;
-                font-family: <span id="show-font">Times</span>;
-                color: <span id="show-color">#000</span>;
-                background-color: <span id="show-bg-color">#fff</span>;
+                font-size: <span id="show-size"></span>px;
+                font-family: <span id="show-font"></span>;
+                color: <span id="show-color">#</span>;
+                background-color: <span id="show-bg-color">#</span>;
         }           </code></pre>
         </section>
     </div>
